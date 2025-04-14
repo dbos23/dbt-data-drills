@@ -27,3 +27,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   refactor_friday:
     +schema: refactor_friday
+    challenge_1:
+      legacy_challenge_1:
+        +enabled: false
+
+seeds:
+  refactor_friday:
+    +schema: refactor_friday_sources
