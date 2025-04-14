@@ -1,0 +1,8 @@
+sources:
+  - name: challenge_1
+    database: til_portfolio_projects
+    schema: dbt_dbostrom_refactor_friday_sources
+    tables:
+      - name: bookings
+      - name: customers
+      - name: flights
